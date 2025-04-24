@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="product-image">
+      <img src="assets/product.jpg" alt="Product" />
+    </div>
+
+    <div class="product-details">
+      <h1>Wireless Headphones</h1>
+      <p class="description">Experience immersive sound quality and noise cancellation with our latest wireless headphones.</p>
+      <h2>$199.99</h2>
+      
+      <div class="actions">
+        <label for="quantity">Qty:</label>
+        <input type="number" id="quantity" value="1" min="1" />
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <p id="confirmation" class="confirmation"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
